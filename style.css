@@ -1,0 +1,43 @@
+/* === PODKATEGORIE === */
+ul.subcategories.with-image li {
+  min-width: 160px !important;
+  min-height: 160px !important;
+}
+ul.subcategories.with-image li img {
+  width: 140px !important;
+  height: 140px !important;
+  object-fit: cover !important;
+  border-radius: 16px !important;
+}
+
+/* === PRODUKTOVÉ KARTY — BÉŽOVÝ VILGAIN STYL === */
+.products-page .product,
+#productsTop .product,
+.products-inline .product {
+  background: #f5f0eb !important;
+  border: none !important;
+  border-radius: 16px !important;
+  box-shadow: none !important;
+}
+
+.products-page .product a.image,
+#productsTop .product a.image,
+.products-inline .product a.image {
+  background: #f5f0eb !important;
+  border-radius: 16px 16px 0 0 !important;
+  padding: 20px !important;
+}
+
+.products-page .product a.image img,
+#productsTop .product a.image img,
+.products-inline .product a.image img {
+  object-fit: contain !important;
+  mix-blend-mode: multiply !important;
+}
+
+.products-page .product .p-in,
+#productsTop .product .p-in,
+.products-inline .product .p-in {
+  background: #f5f0eb !important;
+  padding: 12px 16px 16px !important;
+}
